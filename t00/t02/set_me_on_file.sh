@@ -1,5 +1,7 @@
 #!/bin/bash
 # create file with my date and time
 
-for file in $(>fire); do echo "$fire"; done
+>fire.txt&&touch -t 199108240000.00 fire.txt&&chmod 400 fire.txt&&ls -la
+
+
 
